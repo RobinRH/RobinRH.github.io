@@ -1,26 +1,258 @@
 <html>
+
 <title>Yellowstone Codera</title>
 
 <style>
-    rect.mapexterior {
-        stroke: brown;
-        stroke-width: 5;
-        fill: lightblue;
+    :root {
+        --ybrown: rgb(84,87,68);
+        --yyellow: rgb(245,220,52);
+        --yblue: rgb(73,129,177);
+        --yaqua: rgb(108,191,220);
+        --ygreen: rgb(113, 133, 73);
+        --ywhite: rgb(248,249,252);
+
     }
+
+    body {
+      background-color:var(--ywhite);
+    }
+    
+    text.location {
+        font-size: x-large;
+        fill: black;
+    }
+
+    g.location {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-large;
+        fill: black;
+    }
+
+    text.menutext, span.inputtext, span.menutext, table.menutext, input.menutext {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: xx-large;
+        fill: black;
+    }
+
+    g.intersection {
+        fill: black;
+    }
+
+    path.mapinterior {
+        stroke : black;
+        stroke-width : 2;
+        fill : var(--ygreen)
+    }
+
+    rect.mapexterior {
+        stroke : var(--ybrown);
+        stroke-width : 5;
+        fill : var(--yblue);
+    }
+
+    path.roads {
+        stroke : black;
+        stroke-width : 2;
+        fill : transparent
+    }
+
 </style>
 
 <body>
+    <svg width=0 height=0>
+        	<g id="symbols">
+		<symbol id=instSymbol width=108 height=108 viewBox = "0 0 108 108">
+			<g id=instBadge>
+				<circle cx = 54 cy = 54 r = 54 style="fill : var(--yyellow)"></circle>
+				<circle cx = 54 cy = 54 r = 50 style="fill : var(--yaqua);"></circle>
+				<image x=8 y=6 width = 90 height = 90 href="images/inst.png"></image>
+			</g>
+		</symbol>
 
-<span class="menutext"><a href="day00.md">Day 00 - Instructions</a>
-<input type="text" id="zeroAnswer" class="menutext">
-<span id="zeroResult" class="menutext"> </span>
+	</g>
+    </svg>    
 
+    <table>
+        <tr>
+            <td id="map">
+                <svg width="1400" height="1400">
+                    <g id="basemap">
+                        <rect x=0 y=0 width=1400 height=1400 class="mapexterior"></rect>
 
+                        <path class="mapinterior" d="
+                                M 75,110
+                                L 75,1325
+                                L 1150,1325
+                                L 1150,110
+                                L 75,110
+                            ">
+                        </path>
 
-    <svg width="200" height="200">
-        <g id="basemap">
-            <rect x=0 y=0 width=200 height=200 class="mapexterior"></rect>
+                        <path class="roads" d="
+                            M 460,110 
+                            L 470,200 
+                            L 475,520
+                            L 315,635
+                            L 335,890
+                            L 590,945
+                            L 500,1325
+                            M 475,520
+                            L 665,515
+                            L 740,265
+                            M 470,200 
+                            L 740,265
+                            L 1150,140
+                            M 665,515
+                            L 780,740
+                            L 590,945
+                            M 780,740
+                            L 1150,840
+                            M 315,635
+                            L 75,615
+                            " >
+                        </path>
 
+                        <g class="location">
+                            <text x=  80 y= 610>West Entrance</text>
+                            <text x= 335 y= 640>Madison</text>
+                            <text x= 485 y= 510>Norris</text>
+                            <text x= 480 y= 200>Mammoth</text>
+                            <text x= 460 y= 100>North Entrance</text>
+                            <text x=1160 y= 140>Northeast Entrance</text>
+                            <text x= 745 y= 290>Tower</text>
+                            <text x= 675 y= 515>Canyon</text>
+                            <text x= 790 y= 730>Fishing Bridge</text>
+                            <text x= 605 y= 950>West Thumb</text>
+                            <text x= 505 y=1350>South Entrance</text>
+                            <text x= 345 y= 885>Old Faithful</text>
+                            <text x=1160 y= 840>East Entrance</text>
+                        </g>
+
+                        <g class="intersection">
+                            <circle cx=  75 cy= 615 r=10>West Entrance</circle>
+                            <circle cx= 315 cy= 635 r=10>Madison</circle>
+                            <circle cx= 475 cy= 520 r=10>Norris</circle>
+                            <circle cx= 470 cy= 200 r=10>Mammoth</circle>
+                            <circle cx= 460 cy= 110 r=10>North Entrance</circle>
+                            <circle cx=1150 cy= 140 r=10>Northeast Entrance</circle>
+                            <circle cx= 740 cy= 265 r=10>Tower</circle>
+                            <circle cx= 665 cy= 515 r=10>Canyon</circle>
+                            <circle cx= 780 cy= 740 r=10>Fishing Bridge</circle>
+                            <circle cx= 590 cy= 945 r=10>West Thumb</circle>
+                            <circle cx= 500 cy=1325 r=10>South Entrance</circle>
+                            <circle cx= 335 cy= 890 r=10>Old Faithful</circle>
+                            <circle cx=1150 cy= 840 r=10>East Entrance</circle>
+                        </g>
+                    </g>
+
+                    <g id = "use-map-symbols">
+	<use href="#instSymbol" x=1000 y=1200 width=100 height=100 id="instMapSymbol" opacity=0></use>
+</g>
+
+                </svg>
+            </td>
+            <td id="answers">
+                <table class="menutext">
+	<colgroup>
+		<col style="width : 100px">
+		<col style="width : 400px">
+		<col style="width : 200px">
+		<col style="width : 100px">
+	</colgroup>
+	<tr>
+		<td colspan="2"><p style="font-size:140%; font-weight:bold">Yellowstone Codera</p></b></td>
+		<td>Starting 01/16/2022
+		</tr>
+	<tr>
+		<td><svg height=80 width=80><a href="day00-inst/story-00.html"><use href="#instSymbol" x = 0 y = 0 width=80 height=80 id="instTableSymbol" opacity="0"></use></a></svg></td>
+		<td><span class="menutext"><a href="day00-inst/story-00.html">Day 00 - Instructions</a></td>
+		<td><input type="text" id="instAnswer" class="menutext"></td>
+		<td><span id="instResult" class="menutext"> </span></td>
+	</tr>
+</table>
+            </td>
+        </tr>
+    
+    </table>
+
+    <br/>
+    <button onclick="deleteStoredAnswers()">Delete stored answers</button>
+    <br/>
+
+    <span id="attributions">
+	<h3>Icon attributions</h3>
+	<table>
+		<tr>
+		<th>Day</th>
+		<th>Title</th>
+		<th>Author</th>
+		<th>Source</th>
+		<th>License</th>
+		</tr>
+	<tr>
+		<td>0</td>
+		<td>Instructions</td>
+		<td>Atif Arshad</td>
+		<td><a href="thenounproject.com">Noun Project</a></td>
+		<td>Creative Commons CCBY</td>
+	</tr>
+</table>
+</span>
+
+    <script>
+	days = [
+		["emVybw==", "inst"],
+	]
+
+        pairs = []
+        days.forEach(element => {
+            nickname = element[1];
+            answerHash = element[0]
+            answer = document.querySelector("#" + nickname + "Answer")
+            answer.addEventListener("change", checkAnswers)
+            result = document.querySelector("#" + nickname + "Result")
+            pairs.push([answer, result, answerHash, nickname])
+            savedValue = localStorage.getItem("codera-" + nickname)
+            if (savedValue) {
+                answer.value = savedValue
+            }   
+            checkAnswers()         
+        });
+
+        function checkAnswers() {
+            pairs.forEach(element => {
+                var [answer, result, answerHash, nickname] = element
+                mapSymbol = document.querySelector("#" + nickname + "MapSymbol");
+                tableSymbol = document.querySelector("#" + nickname + "TableSymbol");
+                localStorage.setItem("codera-" + nickname, answer.value);
+                if (btoa(answer.value) == answerHash) {
+                    result.innerText = String.fromCharCode("0x2705")
+                    mapSymbol.style = "opacity : 1;"
+                    tableSymbol.style = "opacity : 1;"
+                }
+                else if (answer.value == "") {
+                    result.innerText = ""
+                    mapSymbol.style = "opacity : 0;"
+                    tableSymbol.style = "opacity : 0;"
+                }
+                else {
+                    result.innerText =String.fromCharCode("0x274C")
+                    mapSymbol.style = "opacity : 0;"
+                    tableSymbol.style = "opacity : 0;"
+                }
+            });
+        }
+
+        function deleteStoredAnswers() {
+            pairs.forEach(element => {
+                var [answer, result, answerHash, nickname] = element
+                localStorage.removeItem("codera-" + nickname)                    
+            });
+        }
+    
+</script>
+
+Copyright 2021 Robin A. Reynolds-Haertle
 
 </body>
 
