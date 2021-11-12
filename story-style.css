@@ -1,0 +1,15 @@
+body {
+    background-color: rgba(108,191,220, 0.75);
+}
+code {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+pre {
+    background-color: rgba(255, 255, 255, 0.25);
+    display: block;
+}
+th, td {
+    border-bottom:1px solid black;
+    text-align: left;
+    padding: 5px;
+}
