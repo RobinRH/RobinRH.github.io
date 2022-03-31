@@ -1,0 +1,7 @@
+geyser,period,duration
+Fountain,271,7
+Morning,3315,45
+Morning's Thief, 2211, 33
+Jet, 36, 33
+Frying Pan,121,66
+Twig,59,15

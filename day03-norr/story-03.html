@@ -1,0 +1,49 @@
+
+<head>
+    <link rel="stylesheet" href="..\story-style.css">
+</head>
+<h1 id="day-3---norris-geyser-basin">Day 3 - Norris Geyser Basin</h1>
+<p>You want to catch an eruption of Steamboat Geyser. You have a list of eruption times for Steamboat. You can calculate the following statistics about eruption times:</p>
+<ul>
+<li>Average calendar days between eruptions: Average number of calendar days between eruption dates. Ignore the hours and minutes. For example, suppose the first eruption is July 15, 2020, 10:15 AM and the second is July 17, 2020, 1:10 PM, then the number of calendar days between eruptions is 2.</li>
+<li>Average hour: The average hour that an eruption occurs. Ignore the day and minutes.</li>
+<li>Median minutes: The median minute that an eruption occurs. Ignore the day and hour.</li>
+</ul>
+<p>Round down all averages to an integer.</p>
+<p>The most recent eruption is the last eruption in the intput file. To create your prediction from the most recent eruption:</p>
+<ul>
+<li>Date: Add the average calendar days between eruptions to the previous eruption date.</li>
+<li>Hour: Set to the average hour of eruption.</li>
+<li>Minutes: Set to the median minute of eruption.</li>
+</ul>
+<p>Using the test input, the statistics are:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Statistic</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Average days</td>
+<td>3</td>
+</tr>
+<tr class="even">
+<td>Average hour</td>
+<td>9</td>
+</tr>
+<tr class="odd">
+<td>Median minutes</td>
+<td>31</td>
+</tr>
+</tbody>
+</table>
+<p>The last eruption in the test file is 2019-09-03 07:25:00. The solution, in the form mm:dd:yyyy:hh:mm, is 09:06:2019:09:31.</p>
+<pre>
+What is your prediction for the next eruption? Give your answer in the form mm:dd:yyyy:hh:mm, using a 24-hour clock.
+</pre>
+<p><a href="input-03.txt">Input</a></p>
+<p><a href="test-03.txt">Test input</a></p>
+<p><a href="hints-03.html">Hints</a></p>
+Copyright 2022 Robin A. Reynolds-Haertle

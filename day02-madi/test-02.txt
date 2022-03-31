@@ -1,0 +1,3 @@
+geyser,period,duration
+Fountain,444,9
+Morning,375,51

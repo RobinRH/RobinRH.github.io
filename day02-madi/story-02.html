@@ -1,0 +1,47 @@
+
+<head>
+    <link rel="stylesheet" href="..\story-style.css">
+</head>
+<h1 id="day-2---madison">Day 2 - Madison</h1>
+<p>You arrive at Fountain Paintpots only to learn that you just missed a simultaneous eruption of Fountain, Morning, Morning’s Thief, Jet, Frying Pan, Kaliedoscope, and several other geysers.</p>
+<p>While eruptions are not predictable in the basin, a simultaneous eruption is (somewhat) predicable. Each geyser has a period and duration. The simultaneous eruption occurs when, for every geyser, the number of minutes from the previous simultaneous eruption, divided by the period has a remainder of the duration.</p>
+<p>For example, suppose you have this input, and the last eruption was midnight May 1st:</p>
+<pre>
+geyser,period,duration
+Fountain,444,9
+Morning,375,51
+</pre>
+<p>The number of minutes is 41301:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Geyser</th>
+<th>Period</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Fountain</td>
+<td>444</td>
+<td>9</td>
+<td>41301 / 444 = 93 remainder 9</td>
+</tr>
+<tr class="even">
+<td>Morning</td>
+<td>375</td>
+<td>51</td>
+<td>41301 / 375 = 110 remainder 51</td>
+</tr>
+</tbody>
+</table>
+<p>41301 minutes after midnight May 1st is 05:28:16:21, in mm:dd:hh:mm format (month:day:hour:minute using a 24-hour clock).</p>
+<pre>
+You missed the eruption at midnight of June 1st. 
+When it the next simultaneous eruption? Give the answer as mm:dd:hh:mm, using a 24-hour clock.
+</pre>
+<p><a href="input-02.txt">Input</a></p>
+<p><a href="test-02.txt">Test input</a></p>
+<p><a href="hints-02.html">Hints</a></p>
+Copyright 2022 Robin A. Reynolds-Haertle
