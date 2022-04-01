@@ -1,0 +1,132 @@
+
+<head>
+    <link rel="stylesheet" href="..\story-style.css">
+</head>
+<h1 id="day-15---old-faithful">Day 15 - Old Faithful</h1>
+<p>An enterprising geyser gazer has created an app that will create a path for you to see eruptions of Old Faithful, Castle, Grand, Beehive, Riverside and Daisy geysers all in one day. It is not a simple path, and you’ll visit other features throughout the day. The gazer really loves turtle graphics and even created a mini-turtle language for drawing the path between the geysers. Unfortunately, you don’t have access to the mini-turtle runtime, so you’ll have to convert mini-turtle to python turtle, run the graph, and find the solution.</p>
+<p>This table describes the mini-turtle language:</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Mini-turtle</th>
+<th>Python turtle</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>beginfill</td>
+<td>turtle.begin_fill()</td>
+</tr>
+<tr class="even">
+<td>color name</td>
+<td>turtle.color(name)</td>
+</tr>
+<tr class="odd">
+<td>coordinates a b c d</td>
+<td>turtle.setworldcoordinates(a, b, c, d)</td>
+</tr>
+<tr class="even">
+<td>dot size color</td>
+<td>turtle.dot(size, color)</td>
+</tr>
+<tr class="odd">
+<td>endfill</td>
+<td>turtle.end_fill()</td>
+</tr>
+<tr class="even">
+<td>forward distance</td>
+<td>turtle.forward(distance)</td>
+</tr>
+<tr class="odd">
+<td>goto (x, y)</td>
+<td>turtle.goto(location)</td>
+</tr>
+<tr class="even">
+<td>heading angle</td>
+<td>turtle.setheading(angle)</td>
+</tr>
+<tr class="odd">
+<td>left angle</td>
+<td>turtle.left(angle)</td>
+</tr>
+<tr class="even">
+<td>pendown</td>
+<td>turtle.pendown()</td>
+</tr>
+<tr class="odd">
+<td>penup</td>
+<td>turtle.penup()</td>
+</tr>
+<tr class="even">
+<td>right angle</td>
+<td>turtle.right(angle)</td>
+</tr>
+<tr class="odd">
+<td>text string fontname fontsize fonttype</td>
+<td>turtle.write(text, font=(fontname fontsize fonttype))<br>In the string parameter, spaces are replaced with underscores.</td>
+</tr>
+<tr class="even">
+<td>width width</td>
+<td>turtle.width(size)</td>
+</tr>
+</tbody>
+</table>
+<p>These are the geysers you will watch erupt:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Geyser</th>
+<th>Coordinates</th>
+<th>Abbreviation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Beehive Geyser</td>
+<td>375, 350</td>
+<td>BG</td>
+</tr>
+<tr class="even">
+<td>Castle Geyser</td>
+<td>325, 200</td>
+<td>CG</td>
+</tr>
+<tr class="odd">
+<td>Daisy Geyser</td>
+<td>150, 100</td>
+<td>DG</td>
+</tr>
+<tr class="even">
+<td>Grand Geyser</td>
+<td>300, 325</td>
+<td>GG</td>
+</tr>
+<tr class="odd">
+<td>Old Faithful</td>
+<td>400, 300</td>
+<td>OF</td>
+</tr>
+<tr class="even">
+<td>Riverside Geyser</td>
+<td>100, 250</td>
+<td>RG</td>
+</tr>
+</tbody>
+</table>
+<p>The test input draws three trees:</p>
+<figure>
+<img src="trees-14.png" alt="" /><figcaption>three trees</figcaption>
+</figure>
+<p>The solution is formed by combining the abbreviations, in the order that you visit the geysers. For example, if you visited Beehive, Castle, Daisy, Grand, Old Faithful, and finally Riverside, then the solution would be:</p>
+<p><code>BGCGDGGGOFRG</code></p>
+<pre>
+In what order did you see the geysers erupt?
+</pre>
+<p><a href="input-14.txt">Input</a></p>
+<p><a href="test-14.txt">Test input</a></p>
+<p><a href="hints-14.html">Hints</a></p>
+Copyright 2022 Robin A. Reynolds-Haertle

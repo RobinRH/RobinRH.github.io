@@ -1,0 +1,20 @@
+Black Dragon's Caldron	72	81	-	87	90	-	*
+Blue Mud Pot	23	36	+	8	17	+	-
+Churning Caldron	34	8	+	28	80	+	+
+Dragon's Mouth Spring	96	71	*	86	12	+	+
+Foam Spring	75	22	+	12	82	+	+
+Grizzly Fumarole	5	39	*	71	15	+	*
+Gumper	77	11	*	67	72	-	-
+Little Gumper	4	72	*	50	18	-	+
+Moose Pool	42	39	*	26	88	*	*
+Mud Caldron	90	92	*	28	69	*	*
+Mud Geyser	17	41	*	97	12	-	-
+Mud Volcano	4	2	+	10	48	+	*
+Obisidian Pool	89	9	+	34	40	*	*
+Ochre Spring	24	70	*	42	32	-	*
+Parking Lot Pool	78	41	-	77	91	+	*
+Sizzling Basin	6	61	*	38	72	-	-
+Sour Lake	79	24	-	20	47	+	*
+Sulphur Caldron	20	22	+	57	85	-	-
+Sulphur Spring	49	44	*	30	5	*	+
+Turbid Blue Mud Spring	3	94	+	39	37	+	-

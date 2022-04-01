@@ -1,0 +1,45 @@
+
+<head>
+    <link rel="stylesheet" href="..\story-style.css">
+</head>
+<h1 id="day-6---roosevelt-arch">Day 6 - Roosevelt Arch</h1>
+<p>The road from Roosevelt Arch to Mammoth teems with animals, but you can only see some of them. You can only see animals that are surrounded by grass and only those animals that are taller than the grass around them. There are some animals you can never see, because they blend into the grass.</p>
+<p>You can see elk, bison, wolves, pronghorn, moose, cranes, and bears. You can’t see any other animals, like bobcats and coyotes.</p>
+<p>A single input string describes all the animals and their surroundings. The input string contains strings like this:</p>
+<p>Surroundings (examples):</p>
+<ul>
+<li>Grass: <code>(grass,14)</code> Grass that is 14 inches high.</li>
+<li>Trees: <code>(tree)</code> A tree.</li>
+<li>Rock: <code>(rock)</code> A rock.</li>
+</ul>
+<p>Animals (examples):</p>
+<ul>
+<li>Elk: <code>(elk,65)</code> An elk that is 65 inches high.</li>
+<li>Bison: <code>(bison,60)</code> A bison that is 60 inches high.</li>
+<li>Wolf: <code>(wolf,30)</code> A bison that is 60 inches high.</li>
+<li>Pronghorn: <code>(pronghorn,48)</code> A pronghorn that is 48 inches high.</li>
+<li>Moose: <code>(moose,72)</code> A moose that is 72 inches high.</li>
+<li>Crane: <code>(crane,36)</code> A crane that is 36 inches high.</li>
+<li>Bear: <code>(bear,40)</code> A bear that is 40 inches high.</li>
+<li>Bobcat: <code>(bobcat,18)</code> A bobcat that is 18 inches high.</li>
+</ul>
+<p>For example, you can see these animals:</p>
+<ul>
+<li><code>(grass,14)(bison,40)(grass,36)</code>: The bison is surrounded by grass, and the bison is taller than all the grass.</li>
+<li><code>(grass,44)(moose,72)(grass,60)</code>: The moose is surrounded by grass, and the moose is taller than all the grass.</li>
+</ul>
+<p>For example, you can’t see these animals:</p>
+<ul>
+<li><code>(grass,15)(wolf,30)(tree)</code>: The wolf is not surrounded by grass.</li>
+<li><code>(grass,10)(coyote,20)(grass,15)</code>: You can’t see coyotes.</li>
+<li><code>(grass,48)(crane,30)(grass,25)</code>: The crane isn’t taller than all the grass that surrounds it.</li>
+</ul>
+<p>In this example input, you a see a bison and a moose:</p>
+<p><code>(tree,21)(rock,35)(grass,28)(rock)(bobcats,37)(tree)(grass,36)(rock,30)(tree,31)(tree)(otter,39)(tree)(tree,6)(rock,27)(tree,38)(grass,9)(moose,27)(grass,24)(rock,47)(tree,18)(rock,31)(tree)(sheep,28)(rock)(grass,43)(rock,43)(tree,18)(rock)(bobcats,39)(rock)(rock,30)(grass,42)(grass,7)(rock)(coyote,23)(rock)(tree,26)(grass,23)(tree,20)(tree)(bear,27)(tree)(rock,29)(rock,31)(grass,29)(tree)(crane,47)(grass,6)(grass,14)(grass,36)(grass,27)(grass,32)(sheep,47)(tree)(grass,34)(grass,8)(grass,20)(grass,17)(bison,44)(grass,43)(grass,8)(grass,26)(rock,39)(tree,15)(tree,14)</code></p>
+<pre>
+How many animals can you see?
+</pre>
+<p><a href="input-06.txt">Input</a></p>
+<p><a href="test-06.txt">Test input</a></p>
+<p><a href="hints-06.html">Hints</a></p>
+Copyright 2022 Robin A. Reynolds-Haertle

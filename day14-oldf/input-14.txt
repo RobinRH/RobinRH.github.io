@@ -1,0 +1,1425 @@
+coordinates 0 0 500 500
+penup
+color lightblue
+width 30
+goto (440, 350)
+pendown
+goto (60, 200)
+penup
+width 1
+penup
+color brown
+heading 90
+goto (50, 50)
+pendown
+forward 400
+right 90
+forward 400
+right 90
+forward 400
+right 90
+forward 400
+right 90
+penup
+goto (45, 45)
+pendown
+forward 410
+right 90
+forward 410
+right 90
+forward 410
+right 90
+forward 410
+right 90
+penup
+color black
+goto (75, 400)
+text Upper_Geyser_Basin Arial 20 bold
+goto (75, 380)
+text Yellowstone_National_Park Arial 15 normal
+color brown
+penup
+goto (350, 75)
+pendown
+goto (350, 90)
+penup
+penup
+goto (350, 90)
+pendown
+goto (365, 120)
+penup
+penup
+goto (365, 120)
+pendown
+goto (380, 90)
+penup
+penup
+goto (380, 75)
+pendown
+goto (380, 90)
+penup
+penup
+goto (365, 120)
+pendown
+goto (425, 120)
+penup
+penup
+goto (425, 120)
+pendown
+goto (440, 90)
+penup
+penup
+goto (440, 90)
+pendown
+goto (440, 75)
+penup
+penup
+goto (350, 90)
+pendown
+goto (440, 90)
+penup
+penup
+goto (350, 75)
+pendown
+goto (440, 75)
+penup
+penup
+goto (365, 120)
+pendown
+color red
+heading 90
+forward 15
+beginfill
+goto (371, 132)
+goto (365, 129)
+goto (365, 135)
+endfill
+penup
+goto (385, 120)
+pendown
+color blue
+heading 90
+forward 15
+beginfill
+goto (391, 132)
+goto (385, 129)
+goto (385, 135)
+endfill
+penup
+goto (405, 120)
+pendown
+color gold
+heading 90
+forward 15
+beginfill
+goto (411, 132)
+goto (405, 129)
+goto (405, 135)
+endfill
+penup
+goto (425, 120)
+pendown
+color green
+heading 90
+forward 15
+beginfill
+goto (431, 132)
+goto (425, 129)
+goto (425, 135)
+endfill
+penup
+color black
+goto (350, 60)
+text Old_Faithful_Inn Arial 12 normal
+penup
+goto (400, 300)
+pendown
+dot 10 aqua
+penup
+color black
+goto (400, 308)
+text Old_Faithful Arial 12 normal
+penup
+goto (375, 350)
+pendown
+dot 10 aqua
+penup
+color black
+goto (375, 358)
+text Beehive_Geyser Arial 12 normal
+penup
+goto (300, 325)
+pendown
+dot 10 aqua
+penup
+color black
+goto (300, 333)
+text Grand_Geyser Arial 12 normal
+penup
+goto (100, 250)
+pendown
+dot 10 aqua
+penup
+color black
+goto (100, 258)
+text Riverside_Geyser Arial 12 normal
+penup
+goto (150, 100)
+pendown
+dot 10 aqua
+penup
+color black
+goto (150, 108)
+text Daisy_Geyser Arial 12 normal
+penup
+goto (325, 200)
+pendown
+dot 10 aqua
+penup
+color black
+goto (325, 208)
+text Castle_Geyser Arial 12 normal
+penup
+penup
+goto (275, 350)
+heading 90
+color green
+pendown
+forward 40
+forward -40
+forward 10
+heading 45
+forward -17
+forward 17
+heading -45
+forward 17
+forward -17
+heading 90
+forward 10
+heading 45
+forward -14
+forward 14
+heading -45
+forward 14
+forward -14
+heading 90
+forward 10
+heading 45
+forward -10
+forward 10
+heading -45
+forward 10
+forward -10
+heading 90
+forward 10
+heading 45
+forward -7
+forward 7
+heading -45
+forward 7
+forward -7
+heading 90
+penup
+penup
+goto (325, 355)
+heading 90
+color green
+pendown
+forward 40
+forward -40
+forward 10
+heading 45
+forward -17
+forward 17
+heading -45
+forward 17
+forward -17
+heading 90
+forward 10
+heading 45
+forward -14
+forward 14
+heading -45
+forward 14
+forward -14
+heading 90
+forward 10
+heading 45
+forward -10
+forward 10
+heading -45
+forward 10
+forward -10
+heading 90
+forward 10
+heading 45
+forward -7
+forward 7
+heading -45
+forward 7
+forward -7
+heading 90
+penup
+penup
+goto (305, 365)
+heading 90
+color green
+pendown
+forward 32
+forward -32
+forward 8
+heading 45
+forward -13
+forward 13
+heading -45
+forward 13
+forward -13
+heading 90
+forward 8
+heading 45
+forward -10
+forward 10
+heading -45
+forward 10
+forward -10
+heading 90
+forward 8
+heading 45
+forward -8
+forward 8
+heading -45
+forward 8
+forward -8
+heading 90
+forward 8
+heading 45
+forward -5
+forward 5
+heading -45
+forward 5
+forward -5
+heading 90
+penup
+penup
+goto (70, 275)
+heading 90
+color green
+pendown
+forward 40
+forward -40
+forward 10
+heading 45
+forward -17
+forward 17
+heading -45
+forward 17
+forward -17
+heading 90
+forward 10
+heading 45
+forward -14
+forward 14
+heading -45
+forward 14
+forward -14
+heading 90
+forward 10
+heading 45
+forward -10
+forward 10
+heading -45
+forward 10
+forward -10
+heading 90
+forward 10
+heading 45
+forward -7
+forward 7
+heading -45
+forward 7
+forward -7
+heading 90
+penup
+penup
+goto (85, 280)
+heading 90
+color green
+pendown
+forward 40
+forward -40
+forward 10
+heading 45
+forward -17
+forward 17
+heading -45
+forward 17
+forward -17
+heading 90
+forward 10
+heading 45
+forward -14
+forward 14
+heading -45
+forward 14
+forward -14
+heading 90
+forward 10
+heading 45
+forward -10
+forward 10
+heading -45
+forward 10
+forward -10
+heading 90
+forward 10
+heading 45
+forward -7
+forward 7
+heading -45
+forward 7
+forward -7
+heading 90
+penup
+penup
+goto (95, 275)
+heading 90
+color green
+pendown
+forward 32
+forward -32
+forward 8
+heading 45
+forward -13
+forward 13
+heading -45
+forward 13
+forward -13
+heading 90
+forward 8
+heading 45
+forward -10
+forward 10
+heading -45
+forward 10
+forward -10
+heading 90
+forward 8
+heading 45
+forward -8
+forward 8
+heading -45
+forward 8
+forward -8
+heading 90
+forward 8
+heading 45
+forward -5
+forward 5
+heading -45
+forward 5
+forward -5
+heading 90
+penup
+penup
+goto (120, 285)
+heading 90
+color green
+pendown
+forward 40
+forward -40
+forward 10
+heading 45
+forward -17
+forward 17
+heading -45
+forward 17
+forward -17
+heading 90
+forward 10
+heading 45
+forward -14
+forward 14
+heading -45
+forward 14
+forward -14
+heading 90
+forward 10
+heading 45
+forward -10
+forward 10
+heading -45
+forward 10
+forward -10
+heading 90
+forward 10
+heading 45
+forward -7
+forward 7
+heading -45
+forward 7
+forward -7
+heading 90
+penup
+penup
+goto (130, 295)
+heading 90
+color green
+pendown
+forward 40
+forward -40
+forward 10
+heading 45
+forward -17
+forward 17
+heading -45
+forward 17
+forward -17
+heading 90
+forward 10
+heading 45
+forward -14
+forward 14
+heading -45
+forward 14
+forward -14
+heading 90
+forward 10
+heading 45
+forward -10
+forward 10
+heading -45
+forward 10
+forward -10
+heading 90
+forward 10
+heading 45
+forward -7
+forward 7
+heading -45
+forward 7
+forward -7
+heading 90
+penup
+penup
+goto (145, 290)
+heading 90
+color green
+pendown
+forward 28
+forward -28
+forward 7
+heading 45
+forward -13
+forward 13
+heading -45
+forward 13
+forward -13
+heading 90
+forward 7
+heading 45
+forward -10
+forward 10
+heading -45
+forward 10
+forward -10
+heading 90
+forward 7
+heading 45
+forward -8
+forward 8
+heading -45
+forward 8
+forward -8
+heading 90
+forward 7
+heading 45
+forward -5
+forward 5
+heading -45
+forward 5
+forward -5
+heading 90
+penup
+penup
+goto (130, 100)
+heading 90
+color green
+pendown
+forward 40
+forward -40
+forward 10
+heading 45
+forward -17
+forward 17
+heading -45
+forward 17
+forward -17
+heading 90
+forward 10
+heading 45
+forward -14
+forward 14
+heading -45
+forward 14
+forward -14
+heading 90
+forward 10
+heading 45
+forward -10
+forward 10
+heading -45
+forward 10
+forward -10
+heading 90
+forward 10
+heading 45
+forward -7
+forward 7
+heading -45
+forward 7
+forward -7
+heading 90
+penup
+penup
+goto (140, 125)
+heading 90
+color green
+pendown
+forward 40
+forward -40
+forward 10
+heading 45
+forward -17
+forward 17
+heading -45
+forward 17
+forward -17
+heading 90
+forward 10
+heading 45
+forward -14
+forward 14
+heading -45
+forward 14
+forward -14
+heading 90
+forward 10
+heading 45
+forward -10
+forward 10
+heading -45
+forward 10
+forward -10
+heading 90
+forward 10
+heading 45
+forward -7
+forward 7
+heading -45
+forward 7
+forward -7
+heading 90
+penup
+penup
+goto (115, 75)
+heading 90
+color green
+pendown
+forward 30
+forward -30
+forward 7
+heading 45
+forward -13
+forward 13
+heading -45
+forward 13
+forward -13
+heading 90
+forward 7
+heading 45
+forward -10
+forward 10
+heading -45
+forward 10
+forward -10
+heading 90
+forward 7
+heading 45
+forward -8
+forward 8
+heading -45
+forward 8
+forward -8
+heading 90
+forward 7
+heading 45
+forward -5
+forward 5
+heading -45
+forward 5
+forward -5
+heading 90
+penup
+penup
+color orange
+goto (275, 290)
+heading 45
+pendown
+forward 5
+right 45
+forward 5
+right 45
+forward 10
+penup
+goto (275, 290)
+heading -45
+pendown
+forward 5
+left 45
+forward 5
+left 45
+forward 10
+penup
+penup
+color orange
+goto (300, 300)
+heading 45
+pendown
+forward 5
+right 45
+forward 5
+right 45
+forward 10
+penup
+goto (300, 300)
+heading -45
+pendown
+forward 5
+left 45
+forward 5
+left 45
+forward 10
+penup
+penup
+color orange
+goto (290, 290)
+heading 45
+pendown
+forward 5
+right 45
+forward 5
+right 45
+forward 10
+penup
+goto (290, 290)
+heading -45
+pendown
+forward 5
+left 45
+forward 5
+left 45
+forward 10
+penup
+penup
+color orange
+goto (125, 235)
+heading 45
+pendown
+forward 5
+right 45
+forward 5
+right 45
+forward 10
+penup
+goto (125, 235)
+heading -45
+pendown
+forward 5
+left 45
+forward 5
+left 45
+forward 10
+penup
+penup
+color orange
+goto (150, 245)
+heading 45
+pendown
+forward 5
+right 45
+forward 5
+right 45
+forward 10
+penup
+goto (150, 245)
+heading -45
+pendown
+forward 5
+left 45
+forward 5
+left 45
+forward 10
+penup
+penup
+color orange
+goto (140, 235)
+heading 45
+pendown
+forward 5
+right 45
+forward 5
+right 45
+forward 10
+penup
+goto (140, 235)
+heading -45
+pendown
+forward 5
+left 45
+forward 5
+left 45
+forward 10
+penup
+goto (350, 75)
+color gray
+pendown
+heading 90
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading 0
+penup
+pendown
+forward 5
+penup
+forward 5
+heading 90
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading 0
+penup
+pendown
+forward 5
+penup
+forward 5
+heading 90
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading 0
+penup
+pendown
+forward 5
+penup
+forward 5
+heading 90
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading 0
+penup
+pendown
+forward 5
+penup
+forward 5
+heading 90
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading 0
+penup
+pendown
+forward 5
+penup
+forward 5
+color gray
+pendown
+heading 90
+penup
+pendown
+forward 5
+penup
+forward 5
+heading 180
+penup
+pendown
+forward 5
+heading 90
+penup
+pendown
+forward 5
+penup
+forward 5
+heading 180
+penup
+pendown
+forward 5
+heading 90
+penup
+pendown
+forward 5
+penup
+forward 5
+heading 180
+penup
+pendown
+forward 5
+heading 90
+penup
+pendown
+forward 5
+penup
+forward 5
+heading 180
+penup
+pendown
+forward 5
+heading 90
+penup
+pendown
+forward 5
+penup
+forward 5
+heading 180
+penup
+pendown
+forward 5
+color gray
+pendown
+heading -90
+penup
+pendown
+forward 5
+heading 180
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading -90
+penup
+pendown
+forward 5
+heading 180
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading -90
+penup
+pendown
+forward 5
+heading 180
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading -90
+penup
+pendown
+forward 5
+heading 180
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading -90
+penup
+pendown
+forward 5
+heading 180
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+color gray
+pendown
+heading -90
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading 180
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+heading -90
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading 180
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+heading -90
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading 180
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+heading -90
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading 180
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+heading -90
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading 180
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+color gray
+pendown
+heading -90
+penup
+pendown
+forward 5
+penup
+forward 5
+heading 0
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading -90
+penup
+pendown
+forward 5
+penup
+forward 5
+heading 0
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading -90
+penup
+pendown
+forward 5
+penup
+forward 5
+heading 0
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading -90
+penup
+pendown
+forward 5
+penup
+forward 5
+heading 0
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading -90
+penup
+pendown
+forward 5
+penup
+forward 5
+heading 0
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+color gray
+pendown
+heading -90
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+heading 180
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading -90
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+heading 180
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading -90
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+heading 180
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading -90
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+heading 180
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+heading -90
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+heading 180
+penup
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5
+penup
+forward 5
+pendown
+forward 5

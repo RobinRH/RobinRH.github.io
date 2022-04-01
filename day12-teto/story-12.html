@@ -1,0 +1,50 @@
+
+<head>
+    <link rel="stylesheet" href="..\story-style.css">
+</head>
+<h1 id="day-12---grand-teton-national-park">Day 12 - Grand Teton National Park</h1>
+<p>As you head down past Lewis Lake to the south entrance, you decide to keep going and visit Grand Teton National Park. As you stare at the moutains in awe, you wonder how many peaks there are exactly, and how big the moutains are. You can’t find the number in the park brochure, but you do have access to a dataset that lists each peak with its shape and size. With a little basic geometry, you can calculate the total volume of the Teton range.</p>
+<p>Each peak in the range is a pyramid and has either a square base or a right triangle base. The formula for the volume of a pyramid is 1/3 the area of the base times the height:</p>
+<ul>
+<li>Square volume = <code>1/3 * (side * side)</code></li>
+<li>Triangle volume = <code>1/3 * (side * side / 2)</code></li>
+</ul>
+<p>For each named peak, the input has three pieces of data: Mountain, Height (in feet), Width (in feet), and Shape.</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mountain</td>
+<td>Name of the mountain</td>
+</tr>
+<tr class="even">
+<td>Height</td>
+<td>Height in feet</td>
+</tr>
+<tr class="odd">
+<td>Width</td>
+<td>For square mountains, the length of the side of the base.<br>For triangle mountains, the length of the non-hypotenuse sides.</td>
+</tr>
+<tr class="even">
+<td>Shape</td>
+<td>Square or Triangle</td>
+</tr>
+</tbody>
+</table>
+<p>The total volume of the mountains in the test file is 321609682860 cubic feet.</p>
+<pre>
+What is the total volume, in cubic feet, of the mountains in the input file?
+</pre>
+<p><a href="input-12.csv">Input</a></p>
+<p><a href="test-12.csv">Test input</a></p>
+<p><a href="hints-12.html">Hints</a></p>
+Copyright 2022 Robin A. Reynolds-Haertle

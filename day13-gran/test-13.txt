@@ -1,0 +1,10 @@
+restroom = 35,length = 25,type = campsite,number = 158
+restroom = 55,number = 261,length = 30,type = campsite
+restroom = 50,number = 363,type = camper,length = 25
+length = 15,number = 401,type = camper,restroom = 86
+length = 30,number = 81,restroom = 71,type = camper
+number = 283,type = campsite,length = 20,restroom = 35
+restroom = 92,type = camper,number = 244,length = 20
+number = 188,type = camper,restroom = 128,length = 30
+type = campsite,number = 382,length = 15,restroom = 93
+number = 62,type = campsite,length = 20,restroom = 77

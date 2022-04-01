@@ -1,0 +1,477 @@
+{
+    "name": "Norris Geyser Basin",
+    "volume": 0,
+    "children": [
+        {
+            "name": "Echinus Geyser",
+            "volume": 87,
+            "children": [
+                {
+                    "name": "Dabble Geyser",
+                    "volume": 42,
+                    "children": [
+                        {
+                            "name": "Tantalus Geyser",
+                            "volume": 99,
+                            "children": [
+                                {
+                                    "name": "Rubble Geyser",
+                                    "volume": 24,
+                                    "children": []
+                                },
+                                {
+                                    "name": "Muddy Sneaker Complex",
+                                    "volume": 37,
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Basin Geyser",
+                    "volume": 16,
+                    "children": [
+                        {
+                            "name": "Emerald Spring",
+                            "volume": 27,
+                            "children": [
+                                {
+                                    "name": "Fireball Geyser",
+                                    "volume": 24,
+                                    "children": [
+                                        {
+                                            "name": "Primrose Springs",
+                                            "volume": 20,
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Blue Mud Steam Vent",
+                                    "volume": 35,
+                                    "children": []
+                                },
+                                {
+                                    "name": "Steam Valve Spring",
+                                    "volume": 23,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Glacial Melt Geyser",
+                            "volume": 19,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Whirligig Geyser",
+            "volume": 50,
+            "children": [
+                {
+                    "name": "Cats Eye Spring",
+                    "volume": 80,
+                    "children": [
+                        {
+                            "name": "Cistern Spring",
+                            "volume": 14,
+                            "children": []
+                        },
+                        {
+                            "name": "Rock Spring",
+                            "volume": 28,
+                            "children": [
+                                {
+                                    "name": "Lava Pool",
+                                    "volume": 17,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Pebble Geyser",
+                            "volume": 71,
+                            "children": []
+                        },
+                        {
+                            "name": "Veteran Geyser",
+                            "volume": 77,
+                            "children": []
+                        },
+                        {
+                            "name": "Collapsed Cave Geyser",
+                            "volume": 22,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Congress Pool",
+                    "volume": 59,
+                    "children": [
+                        {
+                            "name": "Branch Spring",
+                            "volume": 19,
+                            "children": [
+                                {
+                                    "name": "Sunday Geyser",
+                                    "volume": 33,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Dishwater Spring",
+                            "volume": 27,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Hurricane Vent",
+                    "volume": 11,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Little Whirligig Geyser",
+            "volume": 19,
+            "children": [
+                {
+                    "name": "Crown Jewels Springs",
+                    "volume": 15,
+                    "children": [
+                        {
+                            "name": "Dark Cavern Geyser",
+                            "volume": 31,
+                            "children": [
+                                {
+                                    "name": "Hydrophane Springs",
+                                    "volume": 14,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Mud Spring",
+                            "volume": 50,
+                            "children": [
+                                {
+                                    "name": "Whale's Mouth",
+                                    "volume": 40,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Black Hermit Cauldron",
+                            "volume": 14,
+                            "children": []
+                        },
+                        {
+                            "name": "Locomotive Spring",
+                            "volume": 31,
+                            "children": [
+                                {
+                                    "name": "Arch Steam Vent",
+                                    "volume": 13,
+                                    "children": [
+                                        {
+                                            "name": "Ebony Geyser",
+                                            "volume": 75,
+                                            "children": [
+                                                {
+                                                    "name": "Guardian Geyser",
+                                                    "volume": 15,
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Incline Geyser",
+                                    "volume": 46,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Mystic Spring",
+                            "volume": 60,
+                            "children": [
+                                {
+                                    "name": "Forgotten Fumarole",
+                                    "volume": 37,
+                                    "children": [
+                                        {
+                                            "name": "Puff'n'Stuff Geyser",
+                                            "volume": 87,
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Dog's Leg Spring",
+                                    "volume": 95,
+                                    "children": [
+                                        {
+                                            "name": "Carnegie Drill Hole",
+                                            "volume": 98,
+                                            "children": [
+                                                {
+                                                    "name": "Yellow Mud Pool",
+                                                    "volume": 71,
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Africa Geyser",
+                            "volume": 69,
+                            "children": []
+                        },
+                        {
+                            "name": "Teal Blue Bubbler",
+                            "volume": 23,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Fissure Spouter",
+                    "volume": 45,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Orby Geyser",
+            "volume": 27,
+            "children": [
+                {
+                    "name": "Receptacle Spring",
+                    "volume": 23,
+                    "children": []
+                },
+                {
+                    "name": "Crackling Lake",
+                    "volume": 93,
+                    "children": []
+                },
+                {
+                    "name": "Vixen Geyser",
+                    "volume": 11,
+                    "children": [
+                        {
+                            "name": "Minute Geyser",
+                            "volume": 65,
+                            "children": [
+                                {
+                                    "name": "Pinto Geyser",
+                                    "volume": 18,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Pearl Geyser",
+                            "volume": 25,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Jetsam Pool",
+                    "volume": 20,
+                    "children": []
+                },
+                {
+                    "name": "Phillips Cauldron",
+                    "volume": 58,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Fearless Geyser",
+            "volume": 13,
+            "children": [
+                {
+                    "name": "Palpitator Spring",
+                    "volume": 35,
+                    "children": []
+                },
+                {
+                    "name": "Colloidal Pool",
+                    "volume": 27,
+                    "children": [
+                        {
+                            "name": "Amethyst Geyser",
+                            "volume": 78,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bathtub Spring",
+            "volume": 13,
+            "children": [
+                {
+                    "name": "Arsenic Geyser",
+                    "volume": 28,
+                    "children": [
+                        {
+                            "name": "Ledge Geyser",
+                            "volume": 53,
+                            "children": []
+                        },
+                        {
+                            "name": "Pinwheel Geyser",
+                            "volume": 55,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Iris Spring",
+            "volume": 28,
+            "children": [
+                {
+                    "name": "Splutter Pot Geyser",
+                    "volume": 25,
+                    "children": [
+                        {
+                            "name": "Steamboat Geyser",
+                            "volume": 16,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Swiss Cheese Pool",
+                    "volume": 26,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Porkchop Geyser",
+            "volume": 99,
+            "children": [
+                {
+                    "name": "Black Growler",
+                    "volume": 42,
+                    "children": []
+                },
+                {
+                    "name": "Yellow Funnel Spring",
+                    "volume": 15,
+                    "children": [
+                        {
+                            "name": "Firecracker Spring",
+                            "volume": 11,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Corporal Geyser",
+            "volume": 30,
+            "children": [
+                {
+                    "name": "Monarch Geyser",
+                    "volume": 57,
+                    "children": [
+                        {
+                            "name": "Gray Lakes",
+                            "volume": 11,
+                            "children": [
+                                {
+                                    "name": "Blue Geyser",
+                                    "volume": 76,
+                                    "children": []
+                                },
+                                {
+                                    "name": "Constant Geyser",
+                                    "volume": 32,
+                                    "children": [
+                                        {
+                                            "name": "Valentine Geyser",
+                                            "volume": 30,
+                                            "children": [
+                                                {
+                                                    "name": "Sandhill Spring",
+                                                    "volume": 11,
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Medusa Spring",
+                                    "volume": 32,
+                                    "children": [
+                                        {
+                                            "name": "Green Dragon Spring",
+                                            "volume": 47,
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Bastille Geyser",
+                            "volume": 47,
+                            "children": [
+                                {
+                                    "name": "Milky Complex",
+                                    "volume": 13,
+                                    "children": [
+                                        {
+                                            "name": "Branch Spring",
+                                            "volume": 55,
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Tangled Root Spring",
+                                    "volume": 20,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Crater Spring",
+                            "volume": 74,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Harding Geyser",
+            "volume": 12,
+            "children": []
+        }
+    ]
+}

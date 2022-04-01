@@ -1,0 +1,39 @@
+
+<head>
+    <link rel="stylesheet" href="..\story-style.css">
+</head>
+<h1 id="day-4---museum-of-the-national-park-ranger">Day 4 - Museum of the National Park Ranger</h1>
+<p>You arrive at the Museum of the National Park Ranger early in the morning and hike over to Porcelain Basin. You arrive just in time to watch Constant Geyser erupt. You would love to see Pinwheel Geyser erupt. You have a theory about when Pinwheel might erupt. It depends on the total amount of water in several of the geyser systems at Norris. You have a JSON file that contains a tree structure that shows the water in each thermal feature system.</p>
+<p>The following bit of JSON shows all the water in the Iris Spring system. The total volume in this system is 95.</p>
+<pre>
+{
+    "name": "Iris Spring",
+    "volume": 28,
+    "children": [
+        {
+            "name": "Splutter Pot Geyser",
+            "volume": 25,
+            "children": [
+                {
+                    "name": "Steamboat Geyser",
+                    "volume": 16,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Swiss Cheese Pool",
+            "volume": 26,
+            "children": []
+        }
+    ]
+}
+</pre>
+<p>To determine the eruption prediction data, total up the water in Echinus Geyser, Porkchop Geyser, and Whirligig Geyser systems. The answer gives the date in MMDD format.</p>
+<pre>
+What is your prediction for the date of the next Pinwheel eruption, in MMDD format?
+</pre>
+<p><a href="input-04.json">Input</a></p>
+<p><a href="test-04.json">Test input</a></p>
+<p><a href="hints-04.html">Hints</a></p>
+Copyright 2022 Robin A. Reynolds-Haertle

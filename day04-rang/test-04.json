@@ -1,0 +1,22 @@
+{
+    "name": "Iris Spring",
+    "volume": 28,
+    "children": [
+        {
+            "name": "Splutter Pot Geyser",
+            "volume": 25,
+            "children": [
+                {
+                    "name": "Steamboat Geyser",
+                    "volume": 16,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Swiss Cheese Pool",
+            "volume": 26,
+            "children": []
+        }
+    ]
+}

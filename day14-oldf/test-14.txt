@@ -1,0 +1,121 @@
+coordinates 0 0 250 250
+penup
+goto (130, 100)
+heading 90
+color green
+pendown
+forward 40
+forward -40
+forward 10
+heading 45
+forward -17
+forward 17
+heading -45
+forward 17
+forward -17
+heading 90
+forward 10
+heading 45
+forward -14
+forward 14
+heading -45
+forward 14
+forward -14
+heading 90
+forward 10
+heading 45
+forward -10
+forward 10
+heading -45
+forward 10
+forward -10
+heading 90
+forward 10
+heading 45
+forward -7
+forward 7
+heading -45
+forward 7
+forward -7
+heading 90
+penup
+penup
+goto (140, 125)
+heading 90
+color green
+pendown
+forward 40
+forward -40
+forward 10
+heading 45
+forward -17
+forward 17
+heading -45
+forward 17
+forward -17
+heading 90
+forward 10
+heading 45
+forward -14
+forward 14
+heading -45
+forward 14
+forward -14
+heading 90
+forward 10
+heading 45
+forward -10
+forward 10
+heading -45
+forward 10
+forward -10
+heading 90
+forward 10
+heading 45
+forward -7
+forward 7
+heading -45
+forward 7
+forward -7
+heading 90
+penup
+penup
+goto (115, 75)
+heading 90
+color green
+pendown
+forward 30
+forward -30
+forward 7
+heading 45
+forward -13
+forward 13
+heading -45
+forward 13
+forward -13
+heading 90
+forward 7
+heading 45
+forward -10
+forward 10
+heading -45
+forward 10
+forward -10
+heading 90
+forward 7
+heading 45
+forward -8
+forward 8
+heading -45
+forward 8
+forward -8
+heading 90
+forward 7
+heading 45
+forward -5
+forward 5
+heading -45
+forward 5
+forward -5
+heading 90
+penup

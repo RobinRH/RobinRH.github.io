@@ -1,0 +1,82 @@
+
+<head>
+    <link rel="stylesheet" href="..\story-style.css">
+</head>
+<h1 id="day-8---tower-junction">Day 8 - Tower Junction</h1>
+<p>The cooks at Roosevelt Lodge are packing the wagon for the chuck wagon cookout. They want to maximize the calories for the cookout, but the weight of the food is limited to what the horses can pull.</p>
+<p>Before computers, the cooks would use guess-and-check to maximize the calories while meeting the weight limit. They had to repeat the exercise everytime the menu changed! Now they know that their task is an instance of the classic <a href="https://www.tutorialspoint.com/python-program-for-0-1-knapsack-problem">knapsack (0-1) problem</a>, and they definitely need the dynamic approach. They just have to be sure to add multiple instances of the different foods to the data list. For example, there are 5 packages of steak and 8 packages of baked beans to choose from. They can only pack whole packages.</p>
+<p>Suppose you had these foods, and the weight limit is 25 pounds:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Food</th>
+<th>Weight per package</th>
+<th>Calories per package</th>
+<th>Number of packages</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Steak</td>
+<td>5 lb.</td>
+<td>10000</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>Corn on the cob</td>
+<td>3 lb.</td>
+<td>1500</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<p>The maximum number of calories would be 30500.</p>
+<p>These are the food the cooks are packaging:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Food</th>
+<th>Weight per package</th>
+<th>Calories per package</th>
+<th>Number of packages</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Steak</td>
+<td>5 lb.</td>
+<td>7500</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>Corn on the cob</td>
+<td>2 lb.</td>
+<td>1000</td>
+<td>7</td>
+</tr>
+<tr class="odd">
+<td>Baked beans</td>
+<td>3 lb.</td>
+<td>2500</td>
+<td>8</td>
+</tr>
+<tr class="even">
+<td>Peach cobbler</td>
+<td>3 lb.</td>
+<td>2100</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td>Apple cider</td>
+<td>8 lb.</td>
+<td>2000</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<p>The weight capacity of the wagon is 75 pounds.</p>
+<pre>
+What is the maximum number of calories they can pack into the wagon?
+</pre>
+<p><a href="hints-08.html">Hints</a></p>
+Copyright 2022 Robin A. Reynolds-Haertle

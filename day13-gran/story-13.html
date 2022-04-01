@@ -1,0 +1,187 @@
+
+<head>
+    <link rel="stylesheet" href="..\story-style.css">
+</head>
+<h1 id="day-13---grant">Day 13 - Grant</h1>
+<p>You agreed to be the campsite host at the Grant campground for the night. You arrive at the check-in booth and find out that all the campsite assignments have been lost! All you have is a mixed up list of campsite details and camper requests. You need to assign sites quickly to the campers before check-in opens at 4:00 PM! Campers like large sites that are close to the restrooms. To assign campers to the sites, you need to sort the campsites by length (decreasing) and distance from the restroom (increasing). Then sort the camper requests in the same way.</p>
+<p>Match the sites to the campers based on the lists. Calculate a Happiness Factor for each campsite/camper assignment. Each camper starts with 100 Happiness. Subtract 5 points for every foot the campsite is too short. Subtract 1 point for every foot the campsite is too far from the restrooms.</p>
+<p>For example, suppose this is the input:</p>
+<pre>
+restroom = 35,length = 25,type = campsite,number = 158
+restroom = 55,number = 261,length = 30,type = campsite
+restroom = 50,number = 363,type = camper,length = 25
+length = 15,number = 401,type = camper,restroom = 86
+length = 30,number = 81,restroom = 71,type = camper
+number = 283,type = campsite,length = 20,restroom = 35
+restroom = 92,type = camper,number = 244,length = 20
+number = 188,type = camper,restroom = 128,length = 30
+type = campsite,number = 382,length = 15,restroom = 93
+number = 62,type = campsite,length = 20,restroom = 77
+</pre>
+<p>The sorted camper data is:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Number</th>
+<th>Length</th>
+<th>Restroom</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>camper</td>
+<td>81</td>
+<td>30</td>
+<td>71</td>
+</tr>
+<tr class="even">
+<td>camper</td>
+<td>188</td>
+<td>30</td>
+<td>128</td>
+</tr>
+<tr class="odd">
+<td>camper</td>
+<td>363</td>
+<td>25</td>
+<td>50</td>
+</tr>
+<tr class="even">
+<td>camper</td>
+<td>244</td>
+<td>20</td>
+<td>92</td>
+</tr>
+<tr class="odd">
+<td>camper</td>
+<td>401</td>
+<td>15</td>
+<td>86</td>
+</tr>
+</tbody>
+</table>
+<p>The sorted campsite data is:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Number</th>
+<th>Length</th>
+<th>Restroom</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>campsite</td>
+<td>261</td>
+<td>30</td>
+<td>55</td>
+</tr>
+<tr class="even">
+<td>campsite</td>
+<td>158</td>
+<td>25</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>campsite</td>
+<td>283</td>
+<td>20</td>
+<td>35</td>
+</tr>
+<tr class="even">
+<td>campsite</td>
+<td>62</td>
+<td>20</td>
+<td>77</td>
+</tr>
+<tr class="odd">
+<td>campsite</td>
+<td>382</td>
+<td>15</td>
+<td>93</td>
+</tr>
+</tbody>
+</table>
+<p>The assignments and Happiness Factors are:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Number</th>
+<th>Length</th>
+<th>Restroom</th>
+<th>Type</th>
+<th>Number</th>
+<th>Length</th>
+<th>Restroom</th>
+<th>Score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>camper</td>
+<td>81</td>
+<td>30</td>
+<td>71</td>
+<td>campsite</td>
+<td>261</td>
+<td>30</td>
+<td>55</td>
+<td>100</td>
+</tr>
+<tr class="even">
+<td>camper</td>
+<td>188</td>
+<td>30</td>
+<td>128</td>
+<td>campsite</td>
+<td>158</td>
+<td>25</td>
+<td>35</td>
+<td>75</td>
+</tr>
+<tr class="odd">
+<td>camper</td>
+<td>363</td>
+<td>25</td>
+<td>50</td>
+<td>campsite</td>
+<td>383</td>
+<td>20</td>
+<td>35</td>
+<td>75</td>
+</tr>
+<tr class="even">
+<td>camper</td>
+<td>244</td>
+<td>20</td>
+<td>92</td>
+<td>campsite</td>
+<td>62</td>
+<td>20</td>
+<td>77</td>
+<td>100</td>
+</tr>
+<tr class="odd">
+<td>camper</td>
+<td>401</td>
+<td>15</td>
+<td>86</td>
+<td>campsite</td>
+<td>382</td>
+<td>15</td>
+<td>93</td>
+<td>93</td>
+</tr>
+</tbody>
+</table>
+<p>The total Happiness Factor is 443.</p>
+<pre>
+What is the total Happiness Factor at the Grant campground tonight?
+</pre>
+<p><a href="input-13.txt">Input</a></p>
+<p><a href="test-13.txt">Test input</a></p>
+<p><a href="hints-13.html">Hints</a></p>
+Copyright 2022 Robin A. Reynolds-Haertle
