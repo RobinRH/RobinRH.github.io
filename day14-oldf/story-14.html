@@ -8,71 +8,87 @@
 <p>This table describes the mini-turtle language:</p>
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Mini-turtle</th>
 <th>Python turtle</th>
+<th>Example</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>beginfill</td>
 <td>turtle.begin_fill()</td>
+<td></td>
 </tr>
 <tr class="even">
 <td>color name</td>
 <td>turtle.color(name)</td>
+<td>color brown<br>turtle.color(“brown”)</td>
 </tr>
 <tr class="odd">
 <td>coordinates a b c d</td>
 <td>turtle.setworldcoordinates(a, b, c, d)</td>
+<td></td>
 </tr>
 <tr class="even">
 <td>dot size color</td>
-<td>turtle.dot(size, color)</td>
+<td>turtle.dot(size, “color”)</td>
+<td>dot 10 aqua<br>turtle.dot(10, “aqua”)</td>
 </tr>
 <tr class="odd">
 <td>endfill</td>
 <td>turtle.end_fill()</td>
+<td></td>
 </tr>
 <tr class="even">
 <td>forward distance</td>
 <td>turtle.forward(distance)</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>goto (x, y)</td>
-<td>turtle.goto(location)</td>
+<td>turtle.goto((x, y))</td>
+<td>goto (1, 2)<br>turtle.goto((1, 2))</td>
 </tr>
 <tr class="even">
 <td>heading angle</td>
 <td>turtle.setheading(angle)</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>left angle</td>
 <td>turtle.left(angle)</td>
+<td></td>
 </tr>
 <tr class="even">
 <td>pendown</td>
 <td>turtle.pendown()</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>penup</td>
 <td>turtle.penup()</td>
+<td></td>
 </tr>
 <tr class="even">
 <td>right angle</td>
 <td>turtle.right(angle)</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td>text string fontname fontsize fonttype</td>
-<td>turtle.write(text, font=(fontname fontsize fonttype))<br>In the string parameter, spaces are replaced with underscores.</td>
+<td>text string fontname fontsize fonttype<br>In the <i>string</i> parameter, spaces are replaced with underscores.</td>
+<td>turtle.write(string, font=(“fontname”, fontsize, “fonttype”))</td>
+<td>text Old_Faithful Arial 12 normal<br>turtle.write(“Old Faithful”, font=(“Arial”, 12, “normal”))</td>
 </tr>
 <tr class="even">
 <td>width width</td>
 <td>turtle.width(size)</td>
+<td></td>
 </tr>
 </tbody>
 </table>
